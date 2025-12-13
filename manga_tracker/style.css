@@ -1,0 +1,219 @@
+
+/*global style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b1622; /* MAL dark blue */
+    color: #e0e6ed;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/*PAGE CONTAINER*/
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/*ADDMANGA UNDERLINE*/
+
+a {
+    color: #2e9fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*SEARCH BAR*/
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px 12px;
+    background-color: #0f1e2d;
+    border: 1px solid #223344;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+.search-bar input::placeholder {
+    color: #8fa3b8;
+}
+
+.search-bar button {
+    padding: 10px 16px;
+    background-color: #2e9fff;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #1c7fd6;
+}
+
+/*MANGA LIST GRID*/
+
+.manga-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/*MANGA CARd*/
+
+.manga-card {
+    background-color: #0f1e2d;
+    border: 1px solid #1f3247;
+    border-radius: 6px;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.manga-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
+}
+
+/* COVER IMAGE*/
+
+.manga-cover img {
+    width: 90px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #223344;
+}
+
+/* MANGA INFO*/
+
+.manga-info {
+    flex: 1;
+}
+
+.manga-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.manga-status {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #9db4d0;
+    margin-bottom: 8px;
+}
+
+.manga-description {
+    font-size: 0.85rem;
+    color: #c2cfdd;
+    max-height: 60px;
+    overflow: hidden;
+}
+
+/*ACTION BUTTONS*/
+
+.manga-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.manga-actions button {
+    font-size: 0.75rem;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Edit */
+.manga-actions .edit-btn {
+    background-color: #1f3247;
+    color: #ffffff;
+}
+
+.manga-actions .edit-btn:hover {
+    background-color: #2a4663;
+}
+
+/* Delete */
+.manga-actions .delete-btn {
+    background-color: #8b1e1e;
+    color: #ffffff;
+}
+
+.manga-actions .delete-btn:hover {
+    background-color: #b12b2b;
+}
+
+/* =========================
+   FORMS (add and edit)
+   ========================= */
+
+form {
+    background-color: #0f1e2d;
+    border: 1px solid #1f3247;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #0b1622;
+    border: 1px solid #223344;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form button {
+    background-color: #2e9fff;
+    border: none;
+    padding: 10px 18px;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1c7fd6;
+}
+
+/* =========================
+   EMPTY STATE
+   ========================= */
+
+.empty {
+    text-align: center;
+    color: #8fa3b8;
+    margin-top: 40px;
+}
