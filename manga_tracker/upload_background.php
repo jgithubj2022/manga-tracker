@@ -11,9 +11,9 @@ if (!in_array($file['type'], $allowedTypes)) {
     die("Only JPG and PNG allowed.");
 }
 
-$target = "uploads/background.jpg";
+$target = "nonmangaimages/background.jpg";
 
-// overwrite existing background
+//overwrite existing background
 move_uploaded_file($file['tmp_name'], $target);
 
 header("Location: index.php");

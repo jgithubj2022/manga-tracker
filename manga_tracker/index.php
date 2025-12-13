@@ -151,7 +151,7 @@ document.getElementById("bgInput").addEventListener("change", () => {
 updated background image inside of style.css but changed it to here in the .php file so it updated live since browser
 READS CSS before page loads meaning it cannot be edited afterward*/
 body {
-    background-image: url("uploads/background.jpg?v=<?php echo time(); ?>");
+    background-image: url("nonmangaimages/background.jpg?v=<?php echo time(); ?>");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
