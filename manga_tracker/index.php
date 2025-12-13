@@ -34,96 +34,99 @@ if ($search !== "") {
 $stmt->execute();
 $result = $stmt->get_result();
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="style.css"><!--- link to css file-->
     <title>Manga Tracker</title>
 </head>
-<div class="page-overlay">
 <body>
+    <label for="bgInput" class="bg-upload-zone"></label>
+
     <form id="bgUploadForm" action="upload_background.php" method="POST" enctype="multipart/form-data">
-        <input 
-            type="file" 
-            name="background" 
-            id="bgInput" 
+        <input
+            type="file"
+            name="background"
+            id="bgInput"
             accept="image/png, image/jpeg"
             hidden
         >
     </form>
 
-    <!-- old header <h1>My Manga Tracker</h1> -->
-    <img src="nonmangaimages/manga_logo.png" alt="Manga Logo" width="150">
 
-    <!-- SEARCH BAR -- made through html-->
-    <form method="GET" action="index.php">
-        <input 
-            type="text" 
-            name="search" 
-            placeholder="Search manga..."
-            value="<?php echo htmlspecialchars($search); ?>"
-        >
-        <button type="submit">Search</button>
-    </form>
+    <div class="main-content">
+        <!-- old header <h1>My Manga Tracker</h1> -->
+        <img src="nonmangaimages/manga_logo.png" alt="Manga Logo" width="150">
 
-    <br>
+        <!-- SEARCH BAR -- made through html-->
+        <form method="GET" action="index.php">
+            <input 
+                type="text" 
+                name="search" 
+                placeholder="Search manga..."
+                value="<?php echo htmlspecialchars($search); ?>"
+            >
+            <button type="submit">Search</button>
+        </form>
 
-    <a href="add_manga.php">+ Add Manga</a>
-    <hr><!-- horizontal line-->
-    <!-- Hidden upload form -->
+        <br>
+
+        <a href="add_manga.php">+ Add Manga</a>
+        <hr><!-- horizontal line-->
+        <!-- Hidden upload form -->
 
 
-    <!-- DISPLAY MANGA LIST DISPLAYS MANGA LIST BELOW AND BACK TO PHP-->
+        <!-- DISPLAY MANGA LIST DISPLAYS MANGA LIST BELOW AND BACK TO PHP-->
 
 
-    <?php
-    //display results
-    if ($result->num_rows > 0) {
-        while ($row = $result->fetch_assoc()) { //each row has data relating to edit and delete
-        ?>
-        <div class="manga-card">
+        <?php
+        //display results
+        if ($result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) { //each row has data relating to edit and delete
+            ?>
+            <div class="manga-card">
 
-            <div class="manga-cover">
-                <?php if (!empty($row['cover_image'])): ?>
-                    <img src="uploads/<?php echo htmlspecialchars($row['cover_image']); ?>">
-                <?php endif; ?>
-            </div>
-
-            <div class="manga-info">
-                <div class="manga-title">
-                    <?php echo htmlspecialchars($row['title']); ?>
+                <div class="manga-cover">
+                    <?php if (!empty($row['cover_image'])): ?>
+                        <img src="uploads/<?php echo htmlspecialchars($row['cover_image']); ?>">
+                    <?php endif; ?>
                 </div>
 
-                <div class="manga-status">
-                    Status: <?php echo htmlspecialchars($row['status']); ?>
+                <div class="manga-info">
+                    <div class="manga-title">
+                        <?php echo htmlspecialchars($row['title']); ?>
+                    </div>
+
+                    <div class="manga-status">
+                        Status: <?php echo htmlspecialchars($row['status']); ?>
+                    </div>
+
+                    <p class="manga-description">
+                        <?php echo htmlspecialchars($row['description']); ?>
+                    </p>
+
+                    <div class="manga-actions">
+                        <form action="edit_manga.php" method="GET" class="edit-form">
+                            <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
+                            <button type="submit" class="edit-btn">
+                                Edit
+                            </button>
+                        </form>
+
+
+                        <form action="delete_manga.php" method="POST">
+                            <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
+                            <button 
+                                type="submit" 
+                                class="delete-btn"
+                                onclick="return confirm('Delete this manga?')"
+                            >
+                                Delete
+                            </button>
+                        </form>
+                    </div>
                 </div>
-
-                <p class="manga-description">
-                    <?php echo htmlspecialchars($row['description']); ?>
-                </p>
-
-                <div class="manga-actions">
-                    <form action="edit_manga.php" method="GET" class="edit-form">
-                        <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
-                        <button type="submit" class="edit-btn">
-                            Edit
-                        </button>
-                    </form>
-
-
-                    <form action="delete_manga.php" method="POST">
-                        <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
-                        <button 
-                            type="submit" 
-                            class="delete-btn"
-                            onclick="return confirm('Delete this manga?')"
-                        >
-                            Delete
-                        </button>
-                    </form>
-                </div>
-            </div>
-
         </div>
         <?php
     }
@@ -133,14 +136,11 @@ $result = $stmt->get_result();
     }
     ?>
 
-    </body>
-</div>
+    </div>
+</body>
 </html>
 
 <script>
-document.body.addEventListener("click", () => {
-    document.getElementById("bgInput").click();
-});
 
 document.getElementById("bgInput").addEventListener("change", () => {
     document.getElementById("bgUploadForm").submit();
