@@ -25,11 +25,11 @@ Manga tracker I am making as a personal project to store a private database on a
   * Access http://localhost/manga_tracker/index.php to view the site and add or view Jiles' Anime List( want to add login so only I can add and anyone with link can view?)
 ---
 # Photos of my website and operations
-### Home of the Jiles Manga-Tracker
+Home of the Jiles Manga-Tracker
 <img width="1599" height="831" alt="Screenshot 2025-12-12 222639" src="https://github.com/user-attachments/assets/834d67eb-990d-40e4-a2e1-22933456c52b" />
-### Edit Feature
+Edit Feature
 <img width="1609" height="810" alt="Screenshot 2025-12-12 222759" src="https://github.com/user-attachments/assets/03a68091-2283-4ad7-8191-97d05f8d34b0" />
-### Live Background Changer
+Live Background Changer
 <img width="1626" height="821" alt="Screenshot 2025-12-12 222812" src="https://github.com/user-attachments/assets/4242f636-6749-4f63-a4c5-c8fbacca1e51" />
 <img width="1601" height="826" alt="Screenshot 2025-12-12 222825" src="https://github.com/user-attachments/assets/83498c7f-790e-46da-8b97-627f105224df" />
 
