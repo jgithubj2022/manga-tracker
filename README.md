@@ -29,10 +29,9 @@ Manga tracker I am making as a personal project to store a private database on a
 Home of the Jiles Manga-Tracker
 <img width="1846" height="865" alt="Screenshot 2025-12-20 142505" src="https://github.com/user-attachments/assets/d3b36c80-3bbd-4737-96a0-8cd97107e3ba" />
 Edit Feature
-<img width="1609" height="810" alt="Screenshot 2025-12-12 222759" src="https://github.com/user-attachments/assets/03a68091-2283-4ad7-8191-97d05f8d34b0" />
+<img width="1811" height="797" alt="Screenshot 2025-12-20 143053" src="https://github.com/user-attachments/assets/6bb5fe8d-7aa6-4247-a7a9-21f8ce2fbf73" />
 Live Background Changer
-<img width="1626" height="821" alt="Screenshot 2025-12-12 222812" src="https://github.com/user-attachments/assets/4242f636-6749-4f63-a4c5-c8fbacca1e51" />
-<img width="1601" height="826" alt="Screenshot 2025-12-12 222825" src="https://github.com/user-attachments/assets/83498c7f-790e-46da-8b97-627f105224df" />
-
+<img width="1860" height="844" alt="Screenshot 2025-12-20 143137" src="https://github.com/user-attachments/assets/5fdd357b-179e-434b-a337-0582b365ce85" />
+<img width="1857" height="873" alt="Screenshot 2025-12-20 143146" src="https://github.com/user-attachments/assets/3c128842-f35f-4577-88e2-18d7bca189a2" />
 
 
