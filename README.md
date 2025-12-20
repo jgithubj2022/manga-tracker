@@ -1,4 +1,4 @@
-<img width="1846" height="865" alt="image" src="https://github.com/user-attachments/assets/094d5ed4-4ce2-47c4-92f5-b9aab922b8ab" /># manga-tracker
+# manga-tracker
 ---
 Manga tracker I am making as a personal project to store a private database on a localhost through xampp to input manga I've read with photo's of them and small descriptions!
 ---
