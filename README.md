@@ -1,4 +1,4 @@
-# manga-tracker
+<img width="1846" height="865" alt="image" src="https://github.com/user-attachments/assets/094d5ed4-4ce2-47c4-92f5-b9aab922b8ab" /># manga-tracker
 ---
 Manga tracker I am making as a personal project to store a private database on a localhost through xampp to input manga I've read with photo's of them and small descriptions!
 ---
@@ -24,9 +24,10 @@ Manga tracker I am making as a personal project to store a private database on a
   * access http://localhost/phpmyadmin/ , and inisde of manga_tracker database paste the sql located in my sql folder.
   * Access http://localhost/manga_tracker/index.php to view the site and add or view Jiles' Anime List( want to add login so only I can add and anyone with link can view?)
 ---
+
 # Photos of my website and operations
 Home of the Jiles Manga-Tracker
-<img width="1599" height="831" alt="Screenshot 2025-12-12 222639" src="https://github.com/user-attachments/assets/834d67eb-990d-40e4-a2e1-22933456c52b" />
+<img width="1846" height="865" alt="Screenshot 2025-12-20 142505" src="https://github.com/user-attachments/assets/d3b36c80-3bbd-4737-96a0-8cd97107e3ba" />
 Edit Feature
 <img width="1609" height="810" alt="Screenshot 2025-12-12 222759" src="https://github.com/user-attachments/assets/03a68091-2283-4ad7-8191-97d05f8d34b0" />
 Live Background Changer
