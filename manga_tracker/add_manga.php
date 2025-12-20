@@ -17,6 +17,15 @@
         <option value="Completed">Completed</option>
         <option value="Dropped">Dropped</option>
     </select><br><br>
+    <label>Rating</label>
+    <select name = rating>
+        <option value="">No Rating</option>
+        <option value="1">1/5</option>
+        <option value="2">2/5</option>
+        <option value="3">3/5</option>
+        <option value="4">4/5</option>
+        <option value="5">5/5</option>
+    </select><!-- added rating selection --><br><br>
 
     <input type="file" name="cover"><br><br>
 

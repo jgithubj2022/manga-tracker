@@ -42,6 +42,15 @@ $manga = $result->fetch_assoc();
         <option value="Completed" <?php if ($manga['status']=="Completed") echo "selected"; ?>>Completed</option>
         <option value="Dropped" <?php if ($manga['status']=="Dropped") echo "selected"; ?>>Dropped</option>
     </select><br><br>
+    <label>Rating</label>
+    <select name = rating>
+        <option value="" <?php if ($manga['rating']===NULL) echo "selected"; ?>>No Rating</option>
+        <option value="1">1/5</option>
+        <option value="2">2/5</option>
+        <option value="3">3/5</option>
+        <option value="4">4/5</option>
+        <option value="5">5/5</option>
+    </select><!-- added rating selection --><br><br>
 
     <button type="submit">Update</button>
 </form>

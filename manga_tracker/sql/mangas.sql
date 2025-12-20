@@ -8,5 +8,6 @@ CREATE TABLE mangas (
     description TEXT,
     status VARCHAR(50),
     cover_image VARCHAR(255),
+    rating TINYINT NULL,
     date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

@@ -38,7 +38,8 @@ $result = $stmt->get_result();
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css"><!--- link to css file-->
+    <!--- link to css file i changed to v = php echo time since the time changes constantly and therefore css will always be recently uploaded-->
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>" /> 
     <title>Manga Tracker</title>
 </head>
 <body>
@@ -96,6 +97,16 @@ $result = $stmt->get_result();
                 <div class="manga-info">
                     <div class="manga-title">
                         <?php echo htmlspecialchars($row['title']); ?>
+                        <div class="manga-rating">
+                            Rating: 
+                            <?php 
+                            if ($row['rating'] === NULL) {
+                                echo "No Rating";
+                            } else {
+                                echo htmlspecialchars($row['rating']) . "/5 ★";
+                            }
+                            ?>
+                        </div> <!-- previously used span but I dont want it inline-->
                     </div>
 
                     <div class="manga-status">
