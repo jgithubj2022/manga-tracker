@@ -23,7 +23,7 @@ Manga tracker I am making as a personal project to store a private database on a
 * Be able to view finished uploads of manga
 * Search for names through database
 * edit manga from the list, delete from list
-### (UPDATED AFTER 0.2)
+  ### (UPDATED AFTER 0.2)
   * Search for usernames through database
   * Settings
   * Account management details
