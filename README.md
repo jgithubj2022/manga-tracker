@@ -13,6 +13,7 @@ Manga tracker I am making as a personal project to store a private database on a
   ### (UPDATE IDEAS FOR 0.3)
   * comments under manga databases
   * user favorites(user customization for backgrounds via their favorite)
+  * friend system
   * messaging mechanism between users!
 
   
