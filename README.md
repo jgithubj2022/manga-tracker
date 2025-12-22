@@ -7,6 +7,10 @@ Manga tracker I am making as a personal project to store a private database on a
 * The system should load and display manga listings within an acceptable response time for a small dataset.
 * prepare statements when connecting to prevent sql injection
 * friendly layout,with clear labeling, (inspired layout by my anime list in colorscheme and font)
+* Sliding css applied view of manga in database
+* Background image of my chosen favorite manga (JJK)
+* friendly gui with sidebar that scales to upper screen for mobile(haven't tested yet..)
+
   
 
 ### Functional Requirements
@@ -15,6 +19,11 @@ Manga tracker I am making as a personal project to store a private database on a
 * Be able to view finished uploads of manga
 * Search for names through database
 * edit manga from the list, delete from list
+### (UPDATED AFTER 0.2)
+* Search for usernames through database
+* Settings
+* Account management details
+* Password hashing
 
 ---
 
