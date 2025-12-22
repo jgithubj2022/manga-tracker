@@ -24,10 +24,10 @@ Manga tracker I am making as a personal project to store a private database on a
 * Search for names through database
 * edit manga from the list, delete from list
 ### (UPDATED AFTER 0.2)
-* Search for usernames through database
-* Settings
-* Account management details
-* Password hashing
+  * Search for usernames through database
+  * Settings
+  * Account management details
+  * Password hashing
 
 ---
 
