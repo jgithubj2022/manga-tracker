@@ -1,24 +1,35 @@
 <?php
+require_once "auth.php";
+require_login();
 include "config.php";
 
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    header("Location: index.php");
-    exit;
+$id      = (int)($_POST["id"] ?? 0);
+$user_id = (int)($_SESSION["user_id"] ?? 0);
+
+$title       = trim($_POST["title"] ?? "");
+$description = trim($_POST["description"] ?? "");
+$status      = trim($_POST["status"] ?? "Reading");
+$ratingRaw   = $_POST["rating"] ?? "";           // "" means no rating
+$rating      = ($ratingRaw === "") ? NULL : (int)$ratingRaw;
+
+if ($id <= 0) {
+    die("Invalid manga id.");
+}
+if ($title === "") {
+    die("Title is required.");
 }
 
-$id = $_POST['id'];
-$title = $_POST['title'];
-$description = $_POST['description'];
-$status = $_POST['status'];
-$rating = $_POST['rating'];
-if ($rating === "") { //if empty rating set to NULL
-    $rating = NULL;
-}
 
-$stmt = $conn->prepare(
-    "UPDATE mangas SET title = ?, description = ?, status = ?, rating = ? WHERE id = ?"//included Set rating = ?
-);
-$stmt->bind_param("sssii", $title, $description, $status, $rating, $id);//bind 5 params s-string, s-string, s-string, i-integer, i-integer added second integer for rating!
-$stmt->execute(); //lastly execute after binding 4 params must have the user input in the prepared function or its  STILL vulnerable sql injection 
+$stmt = $conn->prepare("
+  UPDATE mangas
+  SET title = ?, description = ?, status = ?, rating = NULLIF(?, '')
+  WHERE id = ? AND user_id = ?
+");
 
-header("Location: index.php");
+$ratingForBind = ($rating === NULL) ? "" : (string)$rating;
+
+$stmt->bind_param("ssssii", $title, $description, $status, $ratingForBind, $id, $user_id);
+$stmt->execute();
+
+header("Location: index.php?view_user=" . $user_id);
+exit;

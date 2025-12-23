@@ -1,30 +1,41 @@
 <?php
+require_once "auth.php";
+require_login();
 include "config.php";
 
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+$id = (int)($_POST["id"] ?? 0);
+$user_id = (int)($_SESSION["user_id"] ?? 0);
+
+if ($id <= 0 || $user_id <= 0) {
+    header("Location: index.php");
+    exit;
+}
+$stmt = $conn->prepare("SELECT cover_image FROM mangas WHERE id = ? AND user_id = ? LIMIT 1");
+$stmt->bind_param("ii", $id, $user_id);
+$stmt->execute();
+$result = $stmt->get_result();
+$row = $result->fetch_assoc();
+$stmt->close();
+
+if (!$row) {
+    // manga doesn't exist or doesn't belong to this user
     header("Location: index.php");
     exit;
 }
 
-$id = $_POST['id'];
-
-// (Optional) fetch image name first to delete file
-$stmt = $conn->prepare("SELECT cover_image FROM mangas WHERE id = ?");
-$stmt->bind_param("i", $id);
-$stmt->execute();
-$result = $stmt->get_result();
-$row = $result->fetch_assoc();
-
-if (!empty($row['cover_image'])) {
-    $path = "uploads/" . $row['cover_image'];
+//dlete the image file if exists
+if (!empty($row["cover_image"])) {
+    $path = __DIR__ . "/uploads/" . $row["cover_image"];
     if (file_exists($path)) {
-        unlink($path);
+        @unlink($path);
     }
 }
 
-// delete record
-$stmt = $conn->prepare("DELETE FROM mangas WHERE id = ?");
-$stmt->bind_param("i", $id);
+//delete the record only belonging to this user
+$stmt = $conn->prepare("DELETE FROM mangas WHERE id = ? AND user_id = ? LIMIT 1");
+$stmt->bind_param("ii", $id, $user_id);
 $stmt->execute();
+$stmt->close();
 
-header("Location: index.php");
+header("Location: index.php?view_user=" . (int)$_SESSION["user_id"]);
+exit;

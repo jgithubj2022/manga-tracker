@@ -1,258 +1,563 @@
-
 /*global style*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-
-/*background-image deleted work here since i di  the styling inside of my php file*/
+/*headers globally*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #ffffff;
+}
+/*base page*/
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0a121e;
-    color: #ffffff;
-    min-height: 100vh;
-    position: relative;
+	background-color: #0f1e2d;
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #fffffd
 }
 
-/*PAGE CONTAINER*/
-
-.container {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 0 20px;
+/* Layout with Sidebar */
+.layout {
+	display: flex;
+	min-height: 100vh;
+	align-items: stretch;
 }
 
-/*ADDMANGA UNDERLINE*/
-
-a {
-    background-color:#0f1e2d;
-    padding: 10px 16px;
-    border: 1px solid #ffffff;
-    border-radius: 7px;
-    font-weight: 600;
-    color: #ffffff;
-    text-decoration: none;
+.main {
+	text-align: left;
+	flex: 1;
+	min-width: 0;
+	padding: 24px;
 }
 
-a:hover {
-    text-decoration: underline;
+.card {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 18px;
+	border-radius: 14px;
+	background: #1f3247;
+	border: 1px solid #0f1e2d;;
+	opacity: 0.94;
+}
+.card-edit {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 18px;
+	border-radius: 14px;
+	background: #0f1e2d;
+	border: 1px solid #0f1e2d;
+}
+
+/* links*/
+.main a,
+.edit-main a,
+.edit-main a.cancel {
+  background-color: #0f1e2d;
+  padding: 10px 16px;
+  border: 1px solid #6a61d027;
+  border-radius: 7px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.main a:hover,
+.edit-main a:hover,
+.edit-main a.cancel:hover {
+  text-decoration: underline;
 }
 
 /*SEARCH BAR*/
-
 .search-bar {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 25px;
+	display: flex;
+	gap: 10px;
+	margin-bottom: 25px;
 }
 
 .search-bar input {
-    flex: 1;
-    padding: 10px 12px;
-    background-color: #0f1e2d;
-    border: 1px solid #223344;
-    border-radius: 4px;
-    color: #ffffff;
-    font-size: 0.95rem;
+	flex: 1;
+	padding: 10px 12px;
+	background-color: #0f1e2d;
+	border: 1px solid #223344;
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: 0.95rem;
 }
 
 .search-bar input::placeholder {
-    color: #8fa3b8;
+	color: #8fa3b8;
 }
 
 .search-bar button {
-    padding: 10px 16px;
-    background-color: #2e9fff;
-    border: none;
-    border-radius: 4px;
-    color: #ffffff;
-    font-weight: 600;
-    cursor: pointer;
+	padding: 10px 16px;
+	background-color: #2e9fff;
+	border: none;
+	border-radius: 4px;
+	color: #ffffff;
+	font-weight: 600;
+	cursor: pointer;
 }
 
 .search-bar button:hover {
-    background-color: #1c7fd6;
+	background-color: #1c7fd6;
 }
+
 
 /*MANGA LIST GRID*/
-
 .manga-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
 }
 
-/*MANGA CARd*/
 
+/*MANGA CARD*/
 .manga-card {
-    background: rgba(20, 30, 45, 0.95);
-    background-color: #0f1e2d;
-    border: 1px solid #1f3247;
-    border-radius: 6px;
-    padding: 15px;
-    display: flex;
-    gap: 15px;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-    opacity: 0.94;
+	background: rgba(20, 30, 45, 0.95);
+	background-color: #0f1e2d;
+	border: 1px solid #1f3247;
+	border-radius: 6px;
+	padding: 15px;
+	display: flex;
+	gap: 15px;
+	transition: transform 0.15s ease, box-shadow 0.15s ease;
+	opacity: 0.94;
 }
 
 .manga-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
+	transform: translateY(-2px);
+	box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
 }
+
 
 /* COVER IMAGE*/
-
 .manga-cover img {
-    width: 90px;
-    height: 130px;
-    object-fit: cover;
-    border-radius: 4px;
-    border: 1px solid #223344;
+	width: 90px;
+	height: 130px;
+	object-fit: cover;
+	border-radius: 4px;
+	border: 1px solid #223344;
 }
 
-/* MANGA INFO*/
 
+/* MANGA INFO*/
 .manga-info {
-    flex: 1;
+	flex: 1;
 }
 
 .manga-title {
-    font-size: 1.05rem;
-    font-weight: 600;
-    color: #ffffff;
-    margin-bottom: 6px;
+	font-size: 1.05rem;
+	font-weight: 600;
+	color: #ffffff;
+	margin-bottom: 6px;
 }
 
 .manga-status {
-    font-size: 0.85rem;
-    font-weight: 500;
-    color: #9db4d0;
-    margin-bottom: 8px;
+	font-size: 0.85rem;
+	font-weight: 500;
+	color: #9db4d0;
+	margin-bottom: 8px;
 }
 
 .manga-description {
-    font-size: 0.85rem;
-    color: #c2cfdd;
-    max-height: 60px;
-    overflow: hidden;
+	font-size: 0.85rem;
+	color: #c2cfdd;
+	max-height: 60px;
+	overflow: hidden;
 }
+
 .manga-info .manga-title .manga-rating {
-    margin-top: 4px;
-    font-size: 0.9rem;
-    color: #fffffd;
-    opacity: 0.8;
+	margin-top: 4px;
+	font-size: 0.9rem;
+	color: #fffffd;
+	opacity: 0.8;
 }
 
 
 /*ACTION BUTTONS*/
-
 .manga-actions {
-    margin-top: 10px;
-    display: flex;
-    gap: 10px;
+	margin-top: 10px;
+	display: flex;
+	gap: 10px;
 }
+
 .manga-actions button {
-    font-size: 0.75rem;
-    padding: 6px 10px;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
+	font-size: 0.75rem;
+	padding: 6px 10px;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
 }
 
 /* Edit */
 .manga-actions .edit-btn {
-    background-color: #1f3247;
-    color: #ffffff;
+	background-color: #1f3247;
+	color: #ffffff;
 }
 
 .manga-actions .edit-btn:hover {
-    background-color: #2a4663;
+	background-color: #2a4663;
 }
 
 /* Delete */
 .manga-actions .delete-btn {
-    background-color: #8b1e1e;
-    color: #ffffff;
+	background-color: #8b1e1e;
+	color: #ffffff;
 }
 
 .manga-actions .delete-btn:hover {
-    background-color: #b12b2b;
+	background-color: #b12b2b;
+}
+/*Create Acc Button*/
+.create-btn {
+	background-color: #2e9fff;
+	color: #ffffff;
+	padding: 10px 18px;
+	border: none;
+	border-radius: 4px;
+	font-weight: 600;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
 }
 
-/* =========================
-   FORMS (add and edit)
-   ========================= */
 
+/* =========================
+   forms
+   styling for ALL FORMS
+   ========================= */
 form {
-    background-color: #0f1e2d;
-    border: 1px solid #1f3247;
-    border-radius: 6px;
-    padding: 5px;
-    opacity: 0.94;
+	background-color: #0f1e2d;
+	border: 1px solid #1f3247;
+	border-radius: 6px;
+	padding: 5px;
+	opacity: 0.94;
 }
 
 form input,
 form textarea,
 form select {
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 10px;
-    background-color: #0b1622;
-    border: 1px solid #223344;
-    border-radius: 4px;
-    color: #ffffff;
-    font-size: 0.9rem;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+	background-color: #0b1622;
+	border: 1px solid #223344;
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: 0.9rem;
 }
 
 form textarea {
-    resize: vertical;
-    min-height: 100px;
+	resize: vertical;
+	min-height: 100px;
 }
 
 form button {
-    background-color: #2e9fff;
-    border: none;
-    padding: 10px 18px;
-    color: #ffffff;
-    font-weight: 600;
-    border-radius: 4px;
-    cursor: pointer;
+	background-color: #2e9fff;
+	border: none;
+	padding: 10px 18px;
+	color: #ffffff;
+	font-weight: 600;
+	border-radius: 4px;
+	cursor: pointer;
 }
 
 form button:hover {
-    background-color: #1c7fd6;
+	background-color: #1c7fd6;
 }
 
-/* =========================
-   EMPTY STATE
-   ========================= */
+/* form button override that globablly makes all buttons inside of form blocks for special trashcan styling*/
 
+/* made thetirash form NOT look like a full form */
+form.trash-form {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+/* Make the trash button ignore the global form button styling */
+form.trash-form button.trash-btn {
+  background: transparent;
+  border: none;
+  padding: 0 6px;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+/* Stop the blue hover */
+form.trash-form button.trash-btn:hover {
+  background: transparent;
+  text-decoration: none;
+}
+
+/* Remove focus outline/blue glow if you see it */
+form.trash-form button.trash-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+
+/* =========================
+   EMPTY
+   ========================= */
 .empty {
-    text-align: center;
-    color: #8fa3b8;
-    margin-top: 40px;
+	text-align: center;
+	color: #8fa3b8;
+	margin-top: 40px;
 }
 
 p {
-    margin-top: 50px;
-}
-/* FULL-SCREEN BACKGROUND CLICK ZONE */
-.bg-upload-zone {
-    position: fixed;
-    inset: 0;
-    z-index: 1;
-    cursor: pointer;
+	margin-top: 50px;
 }
 
-.main-content {
-    position: relative;
-    z-index: 2; /* above the background click zone */
-    pointer-events: none; /* disable pointer events to allow clicks to pass through */
+
+/* siDEBAR*/
+.sidebar {
+	width: 260px;
+	padding: 18px;
+	background-color: rgba(15, 30, 45, 0.92);
+	border-right: 1px solid #1f3247;
+	backdrop-filter: blur(6px);
 }
 
-.main-content * {
-    pointer-events: auto; /* re-enable pointer events for child elements */
+.sidebar-header {
+	margin-bottom: 16px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+.sidebar-title {
+	font-size: 1.05rem;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+	color: #ffffff;
+}
+
+.sidebar-subtitle {
+	margin-top: 4px;
+	font-size: 0.82rem;
+	color: #9db4d0;
+	opacity: 0.95;
+}
+
+.sidebar-nav {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+.sidebar-group {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.sidebar-group-title {
+	font-size: 0.78rem;
+	letter-spacing: 0.9px;
+	text-transform: uppercase;
+	color: #8fa3b8;
+	opacity: 0.9;
+	margin-bottom: 2px;
+}
+
+.sidebar-link {
+	display: block;
+	padding: 10px 12px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.05);
+	border: 1px solid rgba(255,255,255,0.08);
+	color: #ffffff;
+	font-weight: 600;
+	text-decoration: none;
+	transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+.sidebar-link-add {
+	display: block;
+	padding: 10px 12px;
+	border-radius: 10px;
+	background-color: #1c7fd6;
+	border: 1px slategray;
+	color: #ffffff;
+	font-weight: 600;
+	text-decoration: none;
+	transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+
+.sidebar-link-add:hover {
+	background-color: #2e9fff;
+	border-color: rgba(255,255,255,0.14);
+	transform: translateY(-1px);
+}
+.sidebar-link:hover {
+	background-color: rgba(255,255,255,0.10);
+	border-color: rgba(255,255,255,0.14);
+	transform: translateY(-1px);
+}
+
+.sidebar-link:active {
+	transform: translateY(0px);
+}
+
+.sidebar-link.is-disabled {
+	opacity: 0.45;
+	cursor: default;
+	pointer-events: none;
+}
+
+.sidebar-footer {
+	margin-top: 18px;
+	padding-top: 14px;
+	border-top: 1px solid rgba(255,255,255,0.10);
+}
+
+.sidebar-footnote {
+	font-size: 0.78rem;
+	color: #8fa3b8;
+}
+
+/*create account link*/
+.create-link {
+	display: block;
+	padding: 5px;
+	border: 1px solid rgba(255,255,255,0.08);
+	background-color:#03142371;
+	color: #ffffff;
+	font-weight: 600;
+	width: 99%;
+	position: center;
+	border-radius: 10px;
+	text-decoration: none;
+	transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+.create-link:hover {
+	background-color: #1c7fd6;
+	border-color: rgba(255, 255, 255, 0.14);
+	transform: translateY(-1px);
+}
+/*settings buttons link*/
+.settings-link {
+	display: block;
+	padding: 10px 12px;
+	border: 1px solid rgba(255,255,255,0.08);
+	background-color:rgba(255,255,255,0.05);
+	color: #ffffff;
+	font-weight: 600;
+	width: 100%;
+	border-radius: 10px;
+	text-decoration: none;
+	transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+.settings-cancel {
+	display: block;
+	padding: 10px 12px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.05);
+	border: 1px solid rgba(255,255,255,0.08);
+	color: #ffffff;
+	position: center;
+	width : 100%;
+	font-weight: 600;
+	text-decoration: none;
+	transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+.settings-cancel:hover {
+	background-color: rgba(255, 255, 255, 0.10);
+	border-color: rgba(255, 255, 255, 0.14);
+	transform: translateY(-1px);
+}
+.settings-link:hover {
+	background-color: rgba(255, 255, 255, 0.10);
+	border-color: rgba(255, 255, 255, 0.14);
+	transform: translateY(-1px);
+}
+
+
+
+/* mobile sidebar becomes top bar */
+@media (max-width: 800px) {
+	.layout {
+		flex-direction: column;
+	}
+
+	.sidebar {
+		width: auto;
+		border-right: none;
+		border-bottom: 1px solid #1f3247;
+	}
+}
+
+.user-results {
+    margin: 12px 0 18px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.user-pill {
+    background-color: #0f1e2d;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.user-pill:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+/* MANGA SLIDER ON HOMEPAGE JILES RMB */
+.slider-wrapper {
+	position: relative;
+	width: 99%;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	padding: 10px;
+}
+
+/* slider itself */
+.slider {
+	text-align: left;
+	display: block;
+	overflow: hidden;
+	background: #1f3247;
+	border-radius: 10px;
+}
+
+.slider-track {
+	display: flex;
+	gap: 8px;
+	justify-content: flex-start;
+	width: max-content;
+	animation: scroll-left 100s linear infinite;
+	}
+
+.slider-track img {
+  width: 290px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex: none;
+  opacity: 0.95;
+}
+
+.slider-wrapper:hover .slider-track {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-left {
+	  from { translate: 0; }
+  to { translate: -50%; }
 }
