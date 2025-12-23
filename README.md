@@ -37,6 +37,7 @@ I am making as a personal project to store a private database on a localhost thr
   * direct yourself to c:/xamp/htcdocs and place my github repository for the manga-tracker, 
   * access http://localhost/phpmyadmin/ , and inisde of manga_tracker database paste the sql located in my sql folder.
   * Access http://localhost/manga_tracker/index.php to view the site and add or view Jiles' Anime List( want to add login so only I can add and anyone with link can view?)
+  * to try commenting, and add features, create an account.
 ---
 
 # Photos of my website and operations
