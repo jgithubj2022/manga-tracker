@@ -1,4 +1,4 @@
-# manga-tracker
+<img width="1853" height="886" alt="image" src="https://github.com/user-attachments/assets/6d3b5e54-cfbc-4c4b-9ca1-3cb0e85ff44b" /># manga-tracker
 ---
 Manga tracker I am making as a personal project to store a private database on a localhost through xampp to input manga I've read with photo's of them and small descriptions!
 ---
@@ -42,17 +42,31 @@ Manga tracker I am making as a personal project to store a private database on a
 # Photos of my website and operations
 ***
 
+## Login
+---
+<img width="1853" height="886" alt="image" src="https://github.com/user-attachments/assets/12ce3a79-e3c4-441e-acbe-be80301871bf" />
+
+## Create Account
+---
+<img width="1844" height="946" alt="image" src="https://github.com/user-attachments/assets/eea42312-3e20-4632-b357-6785bed895b3" />
+
+
 ## Home of the Jiles Manga-Tracker
 ---
-<img width="1846" height="865" alt="Screenshot 2025-12-20 142505" src="https://github.com/user-attachments/assets/d3b36c80-3bbd-4737-96a0-8cd97107e3ba" />
+<img width="1855" height="948" alt="image" src="https://github.com/user-attachments/assets/b94aaff5-4d8b-4e32-9f6c-99c510ff0f90" />
+
 
 ## Edit Feature
 ---
-<img width="1811" height="797" alt="Screenshot 2025-12-20 143053" src="https://github.com/user-attachments/assets/6bb5fe8d-7aa6-4247-a7a9-21f8ce2fbf73" />
+<img width="1863" height="954" alt="image" src="https://github.com/user-attachments/assets/44300e02-bdbf-49cb-9735-c061726dab87" />
 
-## Live Background Changer
+## Comments
 ---
-<img width="1860" height="844" alt="Screenshot 2025-12-20 143137" src="https://github.com/user-attachments/assets/5fdd357b-179e-434b-a337-0582b365ce85" />
-<img width="1857" height="873" alt="Screenshot 2025-12-20 143146" src="https://github.com/user-attachments/assets/3c128842-f35f-4577-88e2-18d7bca189a2" />
+<img width="1512" height="426" alt="image" src="https://github.com/user-attachments/assets/b9c6cf34-1b6f-4d1e-a30a-a93b852327f7" />
+
+## Settings
+---
+<img width="1859" height="961" alt="image" src="https://github.com/user-attachments/assets/55337f01-9311-41db-9940-9eedb3648f3e" />
+
 
 
