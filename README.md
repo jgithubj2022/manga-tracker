@@ -10,10 +10,13 @@ I am making as a personal project to store a private database on a localhost thr
 * Sliding css applied view of manga in database
 * Background image of my chosen favorite manga (JJK)
 * friendly gui with sidebar that scales to upper screen for mobile(haven't tested yet..)
-  ### (UPDATE IDEAS FOR 0.3)
+  ### (UPDATE CONCEPTS FOR 0.3)
+  ***
+  ####  for confidentiality not presented in github but present on my live site :)!)
+  ___
   * comments under manga databases
   * user favorites(user customization for backgrounds via their favorite)
-  * friend system
+  * friend system (accept, request, decline, friend dms)
   * messaging mechanism between users!
 
   
