@@ -27,11 +27,11 @@ Welcome to my constantly growing manga-user database tracker instructions and im
 * Be able to view finished uploads of manga
 * Search for names through database
 * edit manga from the list, delete from list
-  ### (UPDATED AFTER 0.2)
-  * Search for usernames through database
-  * Settings
-  * Account management details
-  * Password hashing
+(UPDATED AFTER 0.2)
+* Search for usernames through database
+* Settings
+* Account management details
+* Password hashing
 
 ---
 
