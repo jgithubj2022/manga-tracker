@@ -1,5 +1,6 @@
 
 # Manga tracker 
+### by Jiles Smith
 ---
 Welcome to my constantly growing manga-user database tracker instructions and images below!
 ### Non-Functional Requirements
