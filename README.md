@@ -14,7 +14,6 @@ Welcome to my constantly growing manga-user database tracker instructions and im
   ***
   ####  for confidentiality not presented in github but present on my live site :)!)
   ___
-  * comments under manga databases
   * user favorites(user customization for backgrounds via their favorite)
   * friend system (accept, request, decline, friend dms)
   * messaging mechanism between users!
