@@ -42,32 +42,49 @@ I am making as a personal project to store a private database on a localhost thr
 
 # Photos of my website and operations
 ***
+## (NON-Logged in Homepage)
+---
+<img width="1854" height="883" alt="image" src="https://github.com/user-attachments/assets/d9d77fa1-5d8b-4f0a-bd6c-ebc3f7448640" />
 
 ## Login
 ---
-<img width="1853" height="886" alt="image" src="https://github.com/user-attachments/assets/12ce3a79-e3c4-441e-acbe-be80301871bf" />
+<img width="1852" height="959" alt="image" src="https://github.com/user-attachments/assets/408d04e9-eef5-4939-9bf9-ede53c7617ba" />
+
 
 ## Create Account
 ---
-<img width="1844" height="946" alt="image" src="https://github.com/user-attachments/assets/eea42312-3e20-4632-b357-6785bed895b3" />
+<img width="1859" height="959" alt="image" src="https://github.com/user-attachments/assets/78230444-4387-4a76-aa53-5cb1d9715814" />
 
 
-## Home of the Jiles Manga-Tracker
+## Home of the Jiles Manga-Tracker (logged in as jiles so manga below are in jiles database)
 ---
-<img width="1855" height="948" alt="image" src="https://github.com/user-attachments/assets/b94aaff5-4d8b-4e32-9f6c-99c510ff0f90" />
+<img width="1855" height="968" alt="image" src="https://github.com/user-attachments/assets/2e7181be-6c56-419f-b7ef-ce1820f0e565" />
+
 
 
 ## Edit Feature
 ---
-<img width="1863" height="954" alt="image" src="https://github.com/user-attachments/assets/44300e02-bdbf-49cb-9735-c061726dab87" />
+<img width="1842" height="959" alt="image" src="https://github.com/user-attachments/assets/c584c21a-3357-4fdc-a073-d959d7959d6b" />
 
-## Comments
+
+## Comments (only removeable by poster of comment)
 ---
-<img width="1512" height="426" alt="image" src="https://github.com/user-attachments/assets/b9c6cf34-1b6f-4d1e-a30a-a93b852327f7" />
+<img width="1841" height="951" alt="image" src="https://github.com/user-attachments/assets/6b295f08-94c8-468a-9005-d44302ec9537" />
+
 
 ## Settings
 ---
-<img width="1859" height="961" alt="image" src="https://github.com/user-attachments/assets/55337f01-9311-41db-9940-9eedb3648f3e" />
+<img width="1837" height="967" alt="image" src="https://github.com/user-attachments/assets/571e4bd9-5095-41a3-bef1-47d1b7bdf701" />
+
+
+## Friends list
+---
+<img width="1856" height="965" alt="image" src="https://github.com/user-attachments/assets/a50b4230-f1de-4de4-b56a-1efd54f63797" />
+
+
+## Friends status in database
+---
+<img width="1841" height="711" alt="image" src="https://github.com/user-attachments/assets/fa11b00e-6435-4f16-bb6e-6f3bc404c36c" />
 
 
 
