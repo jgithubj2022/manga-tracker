@@ -87,6 +87,7 @@ Welcome to my constantly growing manga-user database tracker instructions and im
 
 ## Friends status in database
 ---
+(yellow = pending, green= accepted, white = add friend)
 <img width="1841" height="711" alt="image" src="https://github.com/user-attachments/assets/fa11b00e-6435-4f16-bb6e-6f3bc404c36c" />
 
 
