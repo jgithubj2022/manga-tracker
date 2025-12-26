@@ -5,11 +5,11 @@
 ---
 Welcome to my constantly growing manga-user database tracker website, instructions and images below!
 ### Non-Functional Requirements
-* The system should be able to handle multiple things in the database
+* The system should be able to handle multiple inputs and tables in the database
 * The system should load and display manga listings within an acceptable response time for a small dataset.
 * prepare statements when connecting to prevent sql injection
 * friendly layout,with clear labeling, (inspired layout by my anime list in colorscheme and font)
-* Sliding css applied view of manga in database
+* Sliding css applied view of manga for home view
 * Background image of my chosen favorite manga (JJK)
 * friendly gui with sidebar that scales to upper screen for mobile(haven't tested yet..)
   ### (UPDATE CONCEPTS FOR 0.3)
