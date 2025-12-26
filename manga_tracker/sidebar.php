@@ -1,7 +1,7 @@
 <!-- sidebar.php -->
 <aside class="sidebar">
 	<div class="sidebar-header">
-		<img src="nonmangaimages/manga_logo.png" alt="Manga Logo" width="200">
+		<img src="nonmangaimages/manga_bite_logo.png" alt="Manga Logo" width="200" height ="140">
 		<div class="sidebar-subtitle">Library and tools</div>
 	</div>
 
@@ -28,3 +28,4 @@
 		<div class="sidebar-footnote">Version 0.2 JS <3 </div>
 	</div>
 </aside>
+
