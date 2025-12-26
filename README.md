@@ -1,6 +1,6 @@
 
 # Manga tracker Manga Bite Test App! :)
-#### name for my live site; "Manga Bite", find at "https://mangabite.page.gd"
+#### "https://mangabite.page.gd"
 ### by Jiles Smith
 ---
 <img width="500" height="300" alt="manga_bite_logo" src="https://github.com/user-attachments/assets/7b69f933-e63b-46be-ac55-7f15ad4a381b" />
