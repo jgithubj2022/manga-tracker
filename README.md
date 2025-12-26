@@ -3,7 +3,7 @@
 #### name for my live site; "Manga Bite", find at "linkplaceholder"
 ### by Jiles Smith
 ---
-Welcome to my constantly growing manga-user database tracker instructions and images below!
+Welcome to my constantly growing manga-user database tracker website, instructions and images below!
 ### Non-Functional Requirements
 * The system should be able to handle multiple things in the database
 * The system should load and display manga listings within an acceptable response time for a small dataset.
