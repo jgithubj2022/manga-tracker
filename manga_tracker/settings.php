@@ -58,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body style="
   margin: 0;
   min-height: 100vh;
-  background-image: url('nonmangaimages/background.jpg?v=<?php echo time(); ?>');
+  background-color: #101924ff;
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(5px);
@@ -100,4 +100,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </div>
   </main>
 </body>
+
 </html>
