@@ -49,7 +49,7 @@ Welcome to my constantly growing manga-user database tracker website, instructio
   * direct yourself to c:/xamp/htcdocs and place my github repository for the manga-tracker, 
   * access http://localhost/phpmyadmin/ , and inisde of manga_tracker database paste the sql located in my sql folder.
   * Access http://localhost/manga_tracker/index.php to view the site
-  * make an account or if you don't want to, you may use "username1, psasword1" to try out features below.
+  * make an account or if you don't want to, you may use "demojiles, demopass" to try out features below.
 ---
 
 # Photos of my website and operations
