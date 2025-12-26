@@ -12,7 +12,7 @@ require_login(); // only logged in users can access the add form
 <body style="
   margin: 0;
   min-height: 100vh;
-  background-image: url('nonmangaimages/background.jpg?v=<?php echo time(); ?>');
+  background-color: #101924ff;
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(5px);
@@ -61,3 +61,4 @@ require_login(); // only logged in users can access the add form
   </main>
 </body>
 </html>
+
