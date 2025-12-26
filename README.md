@@ -1,12 +1,15 @@
 
-# Manga tracker Manga Bite App
+# Manga tracker "Manga Bite" App
 #### live demo: https://mangabite.page.gd
 ### by Jiles Smith
 ---
-<img width="500" height="300" alt="manga_bite_logo" src="https://github.com/user-attachments/assets/7b69f933-e63b-46be-ac55-7f15ad4a381b" />
+
+<img width="550" height="200" alt="manga_bite_logo" src="https://github.com/user-attachments/assets/1f0acdc4-357f-48fc-a66a-432c6007fbe0" />
+
 graphic design by me as-well :)
 
 Welcome to my constantly growing manga-user database tracker website, instructions and images below!
+
 ### Non-Functional Requirements
 * The system should be able to handle multiple inputs and tables in the database
 * The system should load and display manga listings within an acceptable response time for a small dataset.
@@ -53,58 +56,67 @@ Welcome to my constantly growing manga-user database tracker website, instructio
 ***
 ## (NON-Logged in Homepage)
 ---
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c18f25a8-fbc8-4ce9-84f9-48121901f530" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/c11d65b5-d4fa-408c-a81b-2e9052800754" />
+
 
 
 ## Login
 ---
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/7a32e613-87ed-47d1-82c5-10d743e50290" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/b54b9cc6-4a08-489b-8fa1-593dbe717a73" />
+
 
 
 
 ## Create Account
 ---
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/6a70d4a6-3e70-4e60-b9d6-d8c15580b81a" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/5fff2184-0f31-433a-bee1-3a1b7d288a1c" />
+
 
 
 ## Home of the Jiles Manga-Tracker (logged in as jiles so manga below are in jiles database)
 ---
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/7b0afa07-6cbe-44a3-adf1-e71338b0211b" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/e93cfebb-10a5-4101-8506-8cac0649a8f6" />
+
 
 
 
 ## Edit Feature
 ---
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c584c21a-3357-4fdc-a073-d959d7959d6b" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/7244ebf9-ec1c-4f64-9f5a-2ea04e58980d" />
+
 
 
 ## Comments (only removeable by poster of comment)
 ---
-<img width="800" height="200" alt="image" src="https://github.com/user-attachments/assets/fa3faa87-82f5-4550-ba16-f1b0c4b3b953" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/5d8076ca-67d9-40be-83e5-e1774ada1b67" />
+
 
 
 ## Settings
 ---
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/571e4bd9-5095-41a3-bef1-47d1b7bdf701" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/f44ae0b5-c634-46ec-baa8-7b4bd4d69ad6" />
+
 
 
 ## Friends list
 ---
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/a50b4230-f1de-4de4-b56a-1efd54f63797" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/c3eec05d-9b85-4c19-b107-c6df19ee0e71" />
 
 
 ## Friends status in database
 ---
 (yellow = pending, green= accepted, white = add friend)
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/4951b58e-fae9-4356-87ad-b4f44738f6c3" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/db209601-8c41-4174-ad60-f9f2b56d1fca" />
+
 
 ## DM's (live website-demo exclusive)
 ---
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/9eaa7594-1d1f-47de-a370-5acea8b060bb" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/9eaa7594-1d1f-47de-a370-5acea8b060bb" />
 
 ## Bite (clone manga from other libraries into yours for simplicity and current reading status shortcut!)
 ---
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c3b7bc48-e50e-4ff6-a0b6-766a007dab03" />
+<img width="900" height="500" alt="Screenshot 2025-12-26 140341" src="https://github.com/user-attachments/assets/d95f4eb6-11f4-42cb-93fd-ce4514146cff" />
+
 
 
 
