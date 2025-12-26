@@ -1,5 +1,6 @@
 
-# Manga tracker 
+# Manga tracker JilesAnimeList 
+#### posted name: Manga Bite by Jiles Smith
 ### by Jiles Smith
 ---
 Welcome to my constantly growing manga-user database tracker instructions and images below!
@@ -18,6 +19,9 @@ Welcome to my constantly growing manga-user database tracker instructions and im
   * user favorites(user customization for backgrounds via their favorite)
   * friend system (accept, request, decline, friend dms)
   * messaging mechanism between users!
+  * **BITE (exclusive feature)**
+      * manga bite is where if you are in another persons library, if you click bite and the selected manga is cloned to your personal manga library without the other users: description, rating, status,            and leaving the other parameters that the manga database sql takes in as null or empty. without insertion via '?'.
+        <img width="1793" height="785" alt="Screenshot 2025-12-25 204228" src="https://github.com/user-attachments/assets/0d241181-1b72-4655-a92c-2df0bb61946d" />
 
   
 
