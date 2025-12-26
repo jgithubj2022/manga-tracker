@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         body{
             font-family: 'Segoe UI', Tahoma;
             background-position: center;
-            background-image: url("nonmangaimages/background.jpg?v=<?php echo time(); ?>");
+            background-color: #101924ff;
             background-size: cover;
             backdrop-filter: blur(5px);
             display: flex;
@@ -94,7 +94,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body>
 
 <div class="login-container">
-    <h2><img src="nonmangaimages/manga_bite_logo.png" alt="Manga Logo" width="200" height ="140"></h2>
+    <h2><img src="nonmangaimages/manga_bite_logo.png" alt="Manga Logo" width="230" height ="70"></h2>
 
     <form method="POST">
         <input type="text" name="username" class="inputfonts" placeholder="USERNAME" required>
@@ -111,4 +111,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 </body>
 </html>
+
 
