@@ -14,14 +14,13 @@ Welcome to my constantly growing manga-user database tracker website, instructio
 * friendly gui with sidebar that scales to upper screen for mobile(haven't tested yet..)
   ### (UPDATE CONCEPTS FOR 0.3)
   ***
-  ####  for confidentiality not presented in github but present on my live site :)!)
+  ####  for confidentiality not presented in github but present on my live site demo :)!)
   ___
   * user favorites(user customization for backgrounds via their favorite)
   * friend system (accept, request, decline, friend dms)
   * messaging mechanism between users!
-  * **BITE (exclusive feature)**
+  * **BITE (live-demo present feature)**
       * manga bite is where if you are in another persons library, if you click bite and the selected manga is cloned to your personal manga library without the other users: description, rating, status,            and leaving the other parameters that the manga database sql takes in as null or empty. without insertion via '?'.
-        <img width="1793" height="785" alt="Screenshot 2025-12-25 204228" src="https://github.com/user-attachments/assets/0d241181-1b72-4655-a92c-2df0bb61946d" />
 
   
 
@@ -93,6 +92,18 @@ Welcome to my constantly growing manga-user database tracker website, instructio
 ---
 (yellow = pending, green= accepted, white = add friend)
 <img width="1841" height="711" alt="image" src="https://github.com/user-attachments/assets/fa11b00e-6435-4f16-bb6e-6f3bc404c36c" />
+
+
+## DM's (live website-demo exclusive)
+---
+<img width="1778" height="819" alt="image" src="https://github.com/user-attachments/assets/9eaa7594-1d1f-47de-a370-5acea8b060bb" />
+
+## Bite (clone manga from other libraries into yours for simplicity and current reading status shortcut!)
+---
+<img width="1793" height="785" alt="Screenshot 2025-12-25 204228" src="https://github.com/user-attachments/assets/0d241181-1b72-4655-a92c-2df0bb61946d" />
+
+
+
 
 
 
