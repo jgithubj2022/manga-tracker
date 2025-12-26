@@ -1,6 +1,6 @@
 
 # Manga tracker JilesAnimeList Test App! :)
-#### name for my live site; "Manga Bite", find at "linkplaceholder"
+#### name for my live site; "Manga Bite", find at "https://mangabite.page.gd"
 ### by Jiles Smith
 ---
 Welcome to my constantly growing manga-user database tracker website, instructions and images below!
