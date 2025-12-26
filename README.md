@@ -1,6 +1,6 @@
 
 # Manga tracker JilesAnimeList 
-#### posted name: Manga Bite by Jiles Smith
+#### name for my live site; "Manga Bite" by Jiles Smith, here at ""
 ### by Jiles Smith
 ---
 Welcome to my constantly growing manga-user database tracker instructions and images below!
