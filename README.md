@@ -1,8 +1,10 @@
 
-# Manga tracker JilesAnimeList Test App! :)
+# Manga tracker Manga Bite Test App! :)
 #### name for my live site; "Manga Bite", find at "https://mangabite.page.gd"
 ### by Jiles Smith
 ---
+<img width="500" height="300" alt="manga_bite_logo" src="https://github.com/user-attachments/assets/7b69f933-e63b-46be-ac55-7f15ad4a381b" />
+
 Welcome to my constantly growing manga-user database tracker website, instructions and images below!
 ### Non-Functional Requirements
 * The system should be able to handle multiple inputs and tables in the database
@@ -50,58 +52,58 @@ Welcome to my constantly growing manga-user database tracker website, instructio
 ***
 ## (NON-Logged in Homepage)
 ---
-<img width="1854" height="883" alt="image" src="https://github.com/user-attachments/assets/d9d77fa1-5d8b-4f0a-bd6c-ebc3f7448640" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c18f25a8-fbc8-4ce9-84f9-48121901f530" />
+
 
 ## Login
 ---
-<img width="1852" height="959" alt="image" src="https://github.com/user-attachments/assets/408d04e9-eef5-4939-9bf9-ede53c7617ba" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/7a32e613-87ed-47d1-82c5-10d743e50290" />
+
 
 
 ## Create Account
 ---
-<img width="1859" height="959" alt="image" src="https://github.com/user-attachments/assets/78230444-4387-4a76-aa53-5cb1d9715814" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/6a70d4a6-3e70-4e60-b9d6-d8c15580b81a" />
 
 
 ## Home of the Jiles Manga-Tracker (logged in as jiles so manga below are in jiles database)
 ---
-<img width="1855" height="968" alt="image" src="https://github.com/user-attachments/assets/2e7181be-6c56-419f-b7ef-ce1820f0e565" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/7b0afa07-6cbe-44a3-adf1-e71338b0211b" />
 
 
 
 ## Edit Feature
 ---
-<img width="1842" height="959" alt="image" src="https://github.com/user-attachments/assets/c584c21a-3357-4fdc-a073-d959d7959d6b" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c584c21a-3357-4fdc-a073-d959d7959d6b" />
 
 
 ## Comments (only removeable by poster of comment)
 ---
-<img width="1841" height="951" alt="image" src="https://github.com/user-attachments/assets/6b295f08-94c8-468a-9005-d44302ec9537" />
+<img width="800" height="200" alt="image" src="https://github.com/user-attachments/assets/fa3faa87-82f5-4550-ba16-f1b0c4b3b953" />
 
 
 ## Settings
 ---
-<img width="1837" height="967" alt="image" src="https://github.com/user-attachments/assets/571e4bd9-5095-41a3-bef1-47d1b7bdf701" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/571e4bd9-5095-41a3-bef1-47d1b7bdf701" />
 
 
 ## Friends list
 ---
-<img width="1856" height="965" alt="image" src="https://github.com/user-attachments/assets/a50b4230-f1de-4de4-b56a-1efd54f63797" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/a50b4230-f1de-4de4-b56a-1efd54f63797" />
 
 
 ## Friends status in database
 ---
 (yellow = pending, green= accepted, white = add friend)
-<img width="1841" height="711" alt="image" src="https://github.com/user-attachments/assets/fa11b00e-6435-4f16-bb6e-6f3bc404c36c" />
-
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/4951b58e-fae9-4356-87ad-b4f44738f6c3" />
 
 ## DM's (live website-demo exclusive)
 ---
-<img width="1778" height="819" alt="image" src="https://github.com/user-attachments/assets/9eaa7594-1d1f-47de-a370-5acea8b060bb" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/9eaa7594-1d1f-47de-a370-5acea8b060bb" />
 
 ## Bite (clone manga from other libraries into yours for simplicity and current reading status shortcut!)
 ---
-<img width="1793" height="785" alt="Screenshot 2025-12-25 204228" src="https://github.com/user-attachments/assets/0d241181-1b72-4655-a92c-2df0bb61946d" />
-
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c3b7bc48-e50e-4ff6-a0b6-766a007dab03" />
 
 
 
