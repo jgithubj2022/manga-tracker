@@ -94,7 +94,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body>
 
 <div class="login-container">
-    <h2><img src="nonmangaimages/manga_logo.png" alt="Manga Logo" width="150"></h2>
+    <h2><img src="nonmangaimages/manga_bite_logo.png" alt="Manga Logo" width="200" height ="140"></h2>
 
     <form method="POST">
         <input type="text" name="username" class="inputfonts" placeholder="USERNAME" required>
@@ -111,3 +111,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 </body>
 </html>
+
