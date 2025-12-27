@@ -1,6 +1,6 @@
 
 # Manga tracker "Manga Bite" App
-#### live demo: https://mangabite.page.gd
+#### live demo(must be connected to wifi): https://mangabite.page.gd
 ### by Jiles Smith
 ---
 
