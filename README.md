@@ -56,69 +56,77 @@ Welcome to my constantly growing manga-user database tracker website, instructio
 ***
 ## (NON-Logged in Homepage)
 ---
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/c11d65b5-d4fa-408c-a81b-2e9052800754" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/6a40efd6-5721-47a5-bec8-ead184329254" />
+
 
 
 
 ## Login
 ---
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/b54b9cc6-4a08-489b-8fa1-593dbe717a73" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/fb115ded-8492-4056-840c-27ce0680ac81" />
+
 
 
 
 
 ## Create Account
 ---
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/5fff2184-0f31-433a-bee1-3a1b7d288a1c" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/eae11b8c-d91f-4a83-938a-433e1b424245" />
+
 
 
 
 ## Home of the Jiles Manga-Tracker (logged in as jiles so manga below are in jiles database)
 ---
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/e93cfebb-10a5-4101-8506-8cac0649a8f6" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/58fbed39-f745-48dc-96f0-abf708a73a48" />
+
 
 
 
 
 ## Edit Feature
 ---
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/7244ebf9-ec1c-4f64-9f5a-2ea04e58980d" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/3931e6e3-683e-42e1-b07d-007bcca37eea" />
+
 
 
 
 ## Comments (only removeable by poster of comment)
 ---
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/5d8076ca-67d9-40be-83e5-e1774ada1b67" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/83851536-b818-4746-977f-187121b33a1c" />
+
 
 
 
 ## Settings
 ---
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/f44ae0b5-c634-46ec-baa8-7b4bd4d69ad6" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/0e30d3f4-ebe8-42ff-9440-8e68b8d099ed" />
+
+
 
 
 
 ## Friends list
 ---
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/c3eec05d-9b85-4c19-b107-c6df19ee0e71" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/ae3b9478-015b-44a9-8300-5bdf506fc81e" />
+
 
 
 ## Friends status in database
 ---
 (yellow = pending, green= accepted, white = add friend)
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/db209601-8c41-4174-ad60-f9f2b56d1fca" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/7080906c-3667-4741-8ba5-9be4fc034ec6" />
+
 
 
 ## DM's (live website-demo exclusive)
 ---
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/9eaa7594-1d1f-47de-a370-5acea8b060bb" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/b55feae2-a743-4e50-adb2-6cfb83cbbc28" />
+
 
 ## Bite (clone manga from other libraries into yours for simplicity and current reading status shortcut!)
 ---
-<img width="900" height="500" alt="Screenshot 2025-12-26 140341" src="https://github.com/user-attachments/assets/d95f4eb6-11f4-42cb-93fd-ce4514146cff" />
 
-
-
-
+<img width="900" height="500" alt="Screenshot 2025-12-28 215938" src="https://github.com/user-attachments/assets/b2ea1813-1ea4-4b45-abfe-7fb7ab1ba7d4" />
 
 
